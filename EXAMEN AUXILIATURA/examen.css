@@ -1,0 +1,103 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+  
+  body {
+    background-image: url("examen-auxiliatura/img/tms.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    /*background-color: #000;*/
+    color: #fff;
+  }
+  
+  .logo {
+    padding: 5px;
+    
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  main {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .series_container {
+    max-width: 50%;
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  .series_container img{
+    max-width: 90%;
+  }
+  
+  .sec1 {
+    display: inline;
+    /*margin-right: 10px;*/
+    justify-content: space-between;
+    align-items: center;
+    color: #ccc;
+  }
+
+  .sec1 button{
+    margin: 0px;
+    background-color: red;
+    padding: 5px;
+  }
+
+  .sec1 + .sec1{
+    border-left: 1px solid #ccc;
+    padding-left: 20px;
+  }  
+
+  .series-description {
+    color: #fff;
+    margin-bottom: 20px;
+    max-width: 49.5%;
+  }
+  
+  .series-buttons {
+    display: flex;
+  }
+  
+  .play_button,
+  .ml_button {
+    background-color: red;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+
+  
+
+
